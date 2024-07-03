@@ -9,3 +9,4 @@ on:
 jobs:
   build:
     runs-on: windows-lastest
+    container: python:3.9-slim 
